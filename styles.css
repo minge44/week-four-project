@@ -1,0 +1,53 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 1060px;
+  background-color: black;
+}
+.page_wrap {
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: gray;
+}
+.searchButton {
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.searchTerm {
+  height: 30px;
+  font-size: 20px;
+  color: black;
+}
+.player {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  height: 100px;
+  width: 900px;
+  border-bottom: 1px solid black;
+}
+.search {
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  width: 900px;
+  height: 100px;
+}
+.results {
+  display: flex;
+  height: 600px;
+}
+.artist_wrapper {
+  width: 200px;
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
