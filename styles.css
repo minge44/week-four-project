@@ -1,16 +1,18 @@
 body {
   margin: 0 auto;
   padding: 0;
-  width: 1060px;
   background-color: black;
+  width: 1060px;
 }
+
 .page_wrap {
+  width: 1060px;
   border-radius: 10px;
   margin: 0 auto;
   text-align: center;
   background-color: gray;
 }
-.searchButton {
+#submitButton {
   width: 100px;
   height: 30px;
   margin: 20px;
@@ -36,18 +38,23 @@ body {
   height: 100px;
 }
 .results {
+  width: 1060px;
   display: flex;
-  height: 600px;
+  flex-wrap: wrap;
 }
 .artist_wrapper {
   width: 200px;
 }
 #results {
+  width: 1060px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
+ul {
+  height: 200px;
+  width: 200px;
+}
 li {
   list-style-type: none;
 }

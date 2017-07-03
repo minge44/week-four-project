@@ -10,20 +10,27 @@
     <div class="header">
       <h1>My Really Cool Music Site</h1>
     </div>
-      <section class="player">
+      <section class="player" id="audioCont">
         <audio class="music-player" controls="controls" src=""></audio>
       </section>
-    <div class="search">
-      <div class="search_bar">
-        <input type="text" class="searchTerm" placeholder="Search for Artist" style="width: 800px;">
-      </div>
-      <div class="button">
-      <button type="submit" id="trackButton" class="searchButton">Search</button>
-      </div>
-    </div>
-    <section id="results"></section>
 
+      <section class="search">
+      <form class="search-form">
+
+      </form>
+      <input type="text" id="bandInput">
+      <div class="button">
+        <input type="submit" id="submitButton" value="Submit"></input>
+      </div>
+    </section>
+
+
+      
+
+      <section id="results">
+      </section>
     </div>
     <script src="main.js"></script>
+  </div>
   </body>
 </html>
